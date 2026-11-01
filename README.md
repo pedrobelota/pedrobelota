@@ -1,64 +1,41 @@
-# Pedro Henrique
+<img src="assets/pedro-henrique.jpeg" alt="Foto de Pedro Henrique" width="180" align="right" />
 
-### Engenharia de software aplicada à inteligência artificial
+# Olá, eu sou Pedro Henrique 👋
 
-Construo projetos que conectam modelos de IA a aplicações reais, com atenção a
-integração, execução, testes e avaliação. Meu foco é **AI Engineering**: transformar
-modelos e dados em sistemas que possam ser executados, inspecionados e melhorados.
+**Desenvolvimento de software · Inteligência artificial · Pesquisa**
 
-Minha experiência apresentada aqui reúne **pesquisa PIBIC com áudio** e um
-**projeto colaborativo DevTitans de IA generativa no Android**.
+Gosto de aprender construindo: explorar uma ideia, entender como ela funciona e transformá-la em algo útil. Tenho interesse em desenvolvimento de software, inteligência artificial e nas possibilidades de conectar pesquisa e aplicações do dia a dia.
 
-[GitHub](https://github.com/pedrobelota) · [Hugging Face](https://huggingface.co/phbg) · [Datasets e referências de modelos](https://huggingface.co/collections/phbg/devtitans-and-pibic-ai-engineering-6ae553217b5be2d991b7e904)
+Por aqui compartilho projetos, experimentos e aprendizados. Minha trajetória inclui pesquisa de iniciação científica no PIBIC e desenvolvimento colaborativo no DevTitans, trabalhando com áudio, modelos de IA e aplicações Android.
 
-## Projetos em destaque
+[Hugging Face](https://huggingface.co/phbg) · [Meus repositórios](https://github.com/pedrobelota?tab=repositories)
 
-### 01 · Smart Notifications — LLM no próprio Android
+<br clear="both" />
 
-**Transformar rajadas de notificações em resumos curtos em português, com inferência local.**
+## Tecnologias que uso
 
-No projeto colaborativo DevTitans, minha frente é a integração de LLM. A PoC usa
-Gemma e LiteRT-LM, com engenharia de prompt, streaming de tokens, controle de contexto
-e gestão do engine nativo. O fluxo agrupa notificações e publica um resumo no Android.
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" title="Python" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="36" alt="Kotlin" title="Kotlin" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="36" alt="Android" title="Android" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch" title="PyTorch" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="FastAPI" title="FastAPI" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" title="Docker" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="Git" title="Git" />
+</p>
 
-- **Engenharia:** Kotlin, inferência on-device, debounce, prevenção de loop, testes JVM e CI com build do APK.
-- **Dados:** 3.707 exemplos sintéticos publicados no Hugging Face, com splits e auditoria.
-- **Estado:** PoC com validação de bancada relatada. Piloto QLoRA preparado; treinamento e resultados ainda pendentes. O piloto Gemma 3 1B é separado do modelo usado no Android.
+Python · Kotlin · Android · PyTorch · FastAPI · Docker · Git
 
-[Código e arquitetura](https://github.com/pedrobelota/android-smart-notifications) · [Contribuições e evidências](https://github.com/pedrobelota/android-smart-notifications/blob/feat/poc-litert-gemma/docs/EVIDENCE.md) · [Dataset](https://huggingface.co/datasets/phbg/smart-notifications-synthetic) · [Experimento QLoRA](https://github.com/pedrobelota/android-smart-notifications/tree/feat/poc-litert-gemma/notebooks)
+## Um pouco do que estou construindo
 
-### 02 · Coach Emotion Analysis — pesquisa e pipeline de áudio
+- **[Smart Notifications](https://github.com/pedrobelota/android-smart-notifications)** — projeto colaborativo DevTitans que explora IA generativa no próprio Android para resumir notificações. Minha frente é a integração do modelo de linguagem.
+- **[Coach Emotion Analysis](https://github.com/pedrobelota/coach-emotion-analysis)** — projeto PIBIC que combina transcrição e análise de áudio para investigar hipóteses de emoção ao longo do tempo.
+- **[Dados e experimentos no Hugging Face](https://huggingface.co/phbg)** — materiais públicos que acompanham os projetos, com documentação sobre origem e uso.
 
-**Transformar áudio ou vídeo em hipóteses de emoção alinhadas no tempo e avaliar os resultados.**
-
-Projeto PIBIC que integra transcrição Whisper, classificação acústica Wav2Vec2 e
-regras do domínio de futebol. O trabalho inclui processamento temporal, fusão de
-evidências, avaliação com baselines, CLI e uma demonstração local com API de áudio.
-
-- **Engenharia:** Python, PyTorch, Transformers, FastAPI, Docker e CI em Linux/Windows.
-- **Pesquisa:** métricas por classe, análise de desbalanceamento e separação entre execução funcional e qualidade preditiva.
-- **Estado:** pipeline funcional; o estudo piloto apresenta limitações de classificação. Corpus privado; apenas exemplos sintéticos de formato são públicos.
-
-[Código e execução](https://github.com/pedrobelota/coach-emotion-analysis) · [Método](https://github.com/pedrobelota/coach-emotion-analysis/blob/main/docs/methodology.md) · [Resultados e limitações](https://github.com/pedrobelota/coach-emotion-analysis/blob/main/docs/results.md) · [Exemplos de dados](https://huggingface.co/datasets/phbg/coach-emotion-synthetic-schema)
-
-## Competências demonstradas no código
-
-| Área | Evidência |
-| --- | --- |
-| Integração de modelos | LLM com runtime nativo Android; ASR e classificação acústica em Python |
-| Dados e avaliação | Dados sintéticos auditados, alinhamento temporal, métricas por classe e baselines |
-| Entrega de software | CLI, API, Docker, testes automatizados e GitHub Actions |
-| Experimentação com LLMs | Engenharia de prompt e protocolo de adaptação QLoRA em andamento |
-
-## Como apresento meu trabalho
-
-Cada projeto explicita autoria, modelos de terceiros, evidências de execução e
-limitações. O histórico colaborativo é preservado. Assistentes de IA apoiaram revisão,
-documentação e manutenção; a responsabilidade por compreender e validar o trabalho
-continua sendo minha. Resultados de treinamento só são apresentados após execução e avaliação.
-
----
-
-**English:** AI Engineering portfolio with on-device LLM integration for Android and
-a research audio pipeline. Each repository includes technical documentation,
-reproducibility instructions, attribution and evaluation limitations.
+Os repositórios contam um pouco mais sobre as escolhas técnicas, os resultados e o que ainda estou desenvolvendo. Fique à vontade para explorar!
