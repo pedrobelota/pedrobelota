@@ -1,5 +1,3 @@
-<img src="assets/pedro-henrique.jpeg" alt="Foto de Pedro Henrique" width="180" align="right" />
-
 # Olá, eu sou Pedro Henrique 👋
 
 **Desenvolvimento de software · Inteligência artificial · Pesquisa**
@@ -9,8 +7,6 @@ Gosto de aprender construindo: explorar uma ideia, entender como ela funciona e 
 Por aqui compartilho projetos, experimentos e aprendizados. Minha trajetória inclui pesquisa de iniciação científica no PIBIC e desenvolvimento colaborativo no DevTitans, trabalhando com áudio, modelos de IA e aplicações Android.
 
 [Hugging Face](https://huggingface.co/phbg) · [Meus repositórios](https://github.com/pedrobelota?tab=repositories)
-
-<br clear="both" />
 
 ## Tecnologias que uso
 
